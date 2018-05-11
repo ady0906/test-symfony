@@ -38,4 +38,10 @@ class DefaultController extends Controller
         print_r($string);
         die;
     }
+    
+    public function parseDoctorInfo($string)
+    {
+        print_r($string);
+        die;
+    }
 }
