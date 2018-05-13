@@ -63,10 +63,10 @@ class DefaultController extends Controller
                 $parsedHL7['ROL'][5][0], 
                 $parsedHL7['ROL'][4][0]
             );
-            $em->persist($newPatient);
-            $em->persist($newDoctor);
+            // $em->persist($newPatient);
+            // $em->persist($newDoctor);
         }
-        $em->flush();
+        // $em->flush();
         
         echo '<pre>';
         var_dump($fileContents);
