@@ -4,7 +4,7 @@
 >HL7 est un standard international pour les échanges informatisés de données cliniques, financières et administratives entre systèmes d'information hospitaliers (SIH).
 HL7 v2.5
 
-Démarrer le projet en vous rendant sur le répo sur votre terminal puis en tapant:
+Démarrer le projet en vous rendant dans le répo sur votre terminal puis en tapant:
 ```
 php app/console server:run
 ```
